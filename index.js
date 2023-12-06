@@ -30,9 +30,15 @@ class fichaHeroi{
        console.log(`O ${this.tipo} atacou usando ${menssage}`)
     }
 }
-let definirHeroi = new fichaHeroi("Mago-Negro",345,"Ninja")
-definirHeroi.atacar()
+let heroiA = new fichaHeroi("Mago-Negro",345,"Mago")
+let heroiB = new fichaHeroi("Samurai-x",30,"Guerreiro")
+let heroiC = new fichaHeroi("Shaolin",103,"Monge")
+let heroiD = new fichaHeroi("Kakashi",50,"Ninja")
 
+heroiA.atacar()
+heroiB.atacar()
+heroiC.atacar()
+heroiD.atacar()
 
 
 
